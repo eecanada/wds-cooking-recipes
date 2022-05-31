@@ -4,11 +4,13 @@
 @import 'recipe-list.css';
 @import 'recipe.css';
 @import 'ingredient-list.css';
+@import 'recipe-edit.css';
 
 *,
 *::before,
 *::after {
   font-family: Gotham Rounded, sans-serif;
+  box-sizing: border-box;
 }
 
 html {
@@ -20,6 +22,6 @@ body {
   margin: 0;
 }
 
-.mr-1{
+.mr-1 {
   margin-right: 5px;
 }
